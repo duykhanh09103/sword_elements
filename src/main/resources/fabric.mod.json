@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "sword_elements",
+  "version": "${version}",
+  "name": "sword_elements",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/sword_elements/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "github.duykhanh09103.sword_elements.client.Sword_elementsDataGenerator"
+    ],
+    "client": [
+      "github.duykhanh09103.sword_elements.client.Sword_elementsClient"
+    ],
+    "main": [
+      "github.duykhanh09103.sword_elements.Sword_elements"
+    ]
+  },
+  "mixins": [
+    "sword_elements.mixins.json",
+    {
+      "config": "sword_elements.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

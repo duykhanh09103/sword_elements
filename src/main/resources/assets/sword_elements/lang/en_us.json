@@ -1,0 +1,8 @@
+{
+  "item.sword_elements.fire_sword": "The Fire Sword",
+  "item.sword_elements.ice_sword": "The Ice Sword",
+  "itemTooltip.sword_elements.fire_sword_line1": "VERY FIRE SWORD",
+  "itemTooltip.sword_elements.fire_sword_line2": "When attacking will summon lighting and when use will summon fireball",
+  "itemTooltip.sword_elements.ice_sword_line1": "ICY SWORD",
+  "itemTooltip.sword_elements.ice_sword_line2": "When hit will create ice in 5 block radius below enemy, also right click into a block will turn that block to ice"
+}
