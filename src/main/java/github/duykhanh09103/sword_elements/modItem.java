@@ -28,11 +28,11 @@ public class modItem {
         return item;
     }
     public static final ToolMaterial custom_sword_material = new ToolMaterial(
-            BlockTags.INCORRECT_FOR_WOODEN_TOOL,
+            BlockTags.INCORRECT_FOR_DIAMOND_TOOL,
             455,
-            5.0F,
-            1.5F,
-            22,
+            1.0F,
+            3.0F,
+            30,
             ToolMaterial.DIAMOND.repairItems()
     );
     public static final Item FIRE_SWORD = register("fire_sword", fire_sword::new, new Item.Settings().sword(custom_sword_material,2f,1f));

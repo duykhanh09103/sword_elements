@@ -8,5 +8,6 @@ public class Sword_elementsDataGenerator implements DataGeneratorEntrypoint {
     @Override
     public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
         FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
+        pack.addProvider(Sword_elementsRecipeProvider::new);
     }
 }
